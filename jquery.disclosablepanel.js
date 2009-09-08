@@ -25,6 +25,7 @@
       $(this).find('span').removeClass("ui-icon-circle-triangle-s");
       $(this).find('span').addClass("ui-icon-circle-triangle-n");
       }
+      return false;
     });
   this.appendTo(panel).show();
   console.log($(this).attr("title"));
